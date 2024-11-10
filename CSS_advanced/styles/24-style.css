@@ -21,7 +21,7 @@ a:link {
 a:visited {
     font-style: italic;
 }
-.card-services .card.title {
+.card-services > .card.title {
     margin: 0;
 }
 .card-services a {
