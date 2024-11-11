@@ -54,7 +54,7 @@ a:active {
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
-.nav.nav-link::before {
+.nav .nav-link::before {
     content: "";
     position: absolute;
     top: 0;
@@ -65,7 +65,7 @@ a:active {
     display: block;
     padding: 0.5rem 1rem;
 }
-.nav.nav-link:hover .nav-link::before {
+.nav .nav-link:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
     color: var(--color-white);
