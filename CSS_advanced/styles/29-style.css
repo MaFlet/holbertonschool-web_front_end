@@ -54,19 +54,19 @@ a:active {
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
-.nav .nav-link::before {
+nav .nav-link::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    background-color: var(--color-white);
+    background-color: --color-white;
     width: 0;
     height: 20vh;
     display: block;
     padding: 0.5rem 1rem;
 }
-.nav .nav-link:hover .nav-link::before {
-    background-color: var(--color-primary);
+nav .nav-link:hover .nav-link::before {
+    background-color: --color-primary;
     width: 100%;
     color: var(--color-white);
 }
