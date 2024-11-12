@@ -327,5 +327,4 @@ ul.row {
 }
 .card-hover:hover .card-outer {
     transform: scale(0.95);
-    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
